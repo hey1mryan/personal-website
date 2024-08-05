@@ -1,6 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const navItems = document.querySelectorAll('nav a');
 
+    scrollToTopLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
     navItems.forEach(item => {
         item.addEventListener('mouseover', function() {
             this.style.opacity = '0.25';
@@ -11,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         item.addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent default anchor behavior
+            event.preventDefault();
             const targetId = this.getAttribute('data-target');
             const targetElement = document.getElementById(targetId);
 
