@@ -49,9 +49,9 @@ nav a {
 
 }
 
-.item:hover {
+/* .item:hover {
     opacity: 50%;
-}
+} */
 
 .greetBackground {
     width: 100vw;
@@ -114,7 +114,7 @@ nav a {
 
 #aboutMe {
     /* border: red 4px solid;  */
-    margin-top: 0vh;
+    margin-top: 0%;
     margin-left: 50%;
 
 }
@@ -128,7 +128,6 @@ nav a {
     padding-bottom: 6px;
     padding-left: 100%;
     padding-right: 100%;
-    border-top: 30px;
     transform: translateX(-50%);
     width: 100vw;
 }
@@ -137,7 +136,8 @@ nav a {
 .aboutMeDescription {
     background-color: transparent;
     font-size: 25px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-top: 2.5vh;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
@@ -146,24 +146,25 @@ nav a {
     font-weight: bold;
     position: absolute;
     top: 80vh;
-    left: 125px;
-    width: 600px;
+    /* left: 5v; */
+    left: 5vw;
+    width: 40vw;
 }
 
 .headshotImage {
-    width: 700px;
+    width: 42vw;
     position: absolute;
     top: 85vh;
-    right: 125px;
-    margin-bottom: 50px;
+    right: 5vw;
+    margin-bottom: 5vh;
 }
 
 
 #projects {
     /* border: red 4px solid; */
-    margin-top: 62.25%;
+    margin-top: 60%;
     margin-left: 50%;
-    margin-right: 4.15%;
+    /* margin-right: 50%; */
 }
 
 .projectsHeading {
@@ -176,8 +177,9 @@ nav a {
     padding-left: 100%;
     padding-right: 100%;
     transform: translateX(-50%);   
-    top: 74.4vh;
+    /* top: 174.4vh; */
     width: 100vw;
+
 }
 
 .projectsDescription1 {
@@ -186,7 +188,7 @@ nav a {
         border-color: #171717;
         border-radius: 10px;
         font-size: 25px;
-        margin-top: 50px;
+        margin-top: 5vh;
         padding-top: 6px;
         padding-bottom: 6px;
         padding-left: 6px;
@@ -195,8 +197,8 @@ nav a {
         font-weight: bold;
         position: absolute;
         top: 197vh;
-        left: 125px;
-        right: 125px;
+        left: 5vw;
+        right: 5vw;
 }
 
 .projectsDescription2 {
@@ -205,7 +207,7 @@ nav a {
     border-color: #171717;
     border-radius: 10px;
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 5vh;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
@@ -214,8 +216,8 @@ nav a {
     font-weight: bold;
     position: absolute;
     top: 212vh;
-    left: 125px;
-    right: 125px;
+    left: 5vw;
+    right: 5vw;
 }
 
 .projectsDescription3 {
@@ -233,25 +235,14 @@ nav a {
     font-weight: bold;
     position: absolute;
     top: 227vh;
-    left: 125px;
-    right: 125px;
+    left: 5vw;
+    right: 5vw;
 }
 
 
-.education {
-    /*display: flex;
-    justify-content: center;
-    margin-top: 100%;
+#education {
+    margin-top: 40%;
     margin-left: 50%;
-    transform: translateX(-50%);*/
-
-        /* border: red 4px solid; */
-        display: flex;
-        justify-content: center;
-        margin-top: 100%;
-        margin-left: 50%;
-        margin-right: 4.15%;
-        transform: translateX(25%);  
 }
 
 .educationHeading {
@@ -259,31 +250,18 @@ nav a {
     font-size: 40px;
     font-weight: bold;
     font-family: 'Trebuchet MS';
-    margin-top: 70vh;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 44.06vw;
-    padding-right: 44.06vw;
-    top: 290vh;
-    width: 100vw;
-    margin-left: -0.4vw;
-
-    /* background-color: #171717;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS';
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 100%;
-    padding-right: 100%;  
-    top: 104.4vh;
-    width: 100vw; */
+    padding-right: 100%;
+    transform: translateX(-50%);
+    width: 100vw;
 }
 
 .educationDescription {
     background-color: transparent;
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 0vh;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
@@ -292,161 +270,147 @@ nav a {
     font-weight: bold;
     position: absolute;
     top: 275vh;
-    left: 125px;
-    right: 125px;
+    left: 5vw;
+    right: 5vw;
 }
 
 
-.hobbies {
-    position: relative;
+#hobbies {
+    margin-top: 27.5%;
+    margin-left: 50%;
 }
 
 .hobbiesHeading {
     background-color: #171717;
     font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-left: 81.5vh;
-    padding-right: 81.5vh;
-    font-family: 'Trebuchet MS';
-    font-weight: bold;
-    position: absolute;
-    top: 320vh;
-    margin-left: -10px;
-    margin-right: -10px;
+    padding-left: 100%;
+    padding-right: 100%;
+    transform: translateX(-50%);
+    width: 100vw;
 }
 
 .hobbiesDescriptionVolleyball {
     background-color: transparent;
     font-size: 25px;
-    margin-top: 50px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    margin-top: 5vh;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     position: absolute;
     top: 330vh;
-    left: 125px;
-    right: 875px;
+    left: 5vw;
+    right: 50vw;
 }
 
 .volleyballImage {
-    width: 500px;
+    width: 40vw;
+    margin-top: 0vh;
     position: absolute;
     top: 335vh;
-    left: 875px;
-    right: 125px;
+    left: 50vw;
+    right: 5vw;
 }
 
 .hobbiesDescriptionGuitar {
     background-color: transparent;
     font-size: 25px;
-    margin-top: 150px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    margin-top: 20vh;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     position: absolute;
     top: 360vh;
-    left: 875px;
-    right: 125px;
+    left: 50vw;
+    right: 5vw;
 }
 
 .guitarImage {
-    width: 500px;
-    margin-top: 150px;
+    width: 35vw;
+    margin-top: 25vh;
     position: absolute;
     top: 355vh;
-    left: 125px;
-    right: 875px;
+    left: 5vw;
+    right: 87550vw;
 }
 
 .hobbiesDescriptionGames {
     background-color: transparent;
     font-size: 25px;
-    margin-top: 250px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    margin-top: 35vh;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     position: absolute;
     top: 395vh;
-    left: 125px;
-    right: 875px;
+    left: 5vw;
+    right: 50vw;
 }
 
 .gamesImage {
-    width: 500px;
-    margin-top: 250px;
+    width: 40vw;
+    margin-top: 40vh;
     position: absolute;
     top: 390vh;
-    left: 875px;
-    right: 125px;
+    left: 50vw;
+    right: 5vw;
 }
 
 .hobbiesDescriptionAnime {
     background-color: transparent;
     font-size: 25px;
-    margin-top: 350px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    margin-top: 60vh;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     position: absolute;
     top: 425vh;
-    left: 875px;
-    right: 125px;
+    left: 50vw;
+    right: 5vw;
 }
 
 .animeImage {
-    width: 500px;
-    margin-top: 350px;
+    width: 40vw;
+    margin-top: 65vh;
     position: absolute;
     top: 420vh;
-    left: 125px;
-    right: 875px;
+    left: 5vw;
+    right: 50vw;
 }
 
 
-.contact {
-    position: relative;
+#contact {
+    margin-top: 115%;
+    margin-left: 50%;
 }
 
 .contactHeading {
     background-color: #171717;
     font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-left: 78.3vh;
-    padding-right: 78.3vh;
-    font-family: 'Trebuchet MS';
-    font-weight: bold;
-    position: absolute;
-    top: 505vh;
-    margin-left: -10px;
-    margin-right: -10px;
+    padding-left: 100%;
+    padding-right: 100%;
+    transform: translateX(-50%);
+    width: 100vw;
+    margin-top: 15vh
 }
 
 .contactDescription {
     background-color: transparent;
     font-size: 25px;
-    margin-top: 50px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    margin-top: 35vh;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     position: absolute;
-    top: 515vh;
-    left: 125px;
-    right: 125px;
+    top: 525vh;
+    left: 5vw;
+    right: 5vw;
+    padding-bottom: 50vh;
 }
