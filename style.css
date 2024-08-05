@@ -56,7 +56,7 @@ nav a {
 .greetBackground {
     width: 100vw;
     height: 70vh;
-    position: absolute;
+    /* position: absolute; */
     z-index: -1;
     margin-left: -10px;
     margin-right: 10px;
@@ -71,7 +71,7 @@ nav a {
     font-family:'Trebuchet MS';
     font-weight: bolder;
     font-size: 88px;
-    position: absolute;
+    /* position: absolute; */
     top: 25vh;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@ nav a {
     font-weight: bold;
     font-family: 'Trebuchet MS';
     font-size: 40px;
-    position: absolute;
+    /* position: absolute; */
     top: 45vh;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -136,24 +136,19 @@ nav a {
 .aboutMeDescription {
     background-color: transparent;
     font-size: 25px;
-    /* margin-top: 50px; */
     margin-top: 2.5vh;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 80vh;
-    /* left: 5v; */
     left: 5vw;
     width: 40vw;
 }
 
 .headshotImage {
     width: 42vw;
-    position: absolute;
+    /* position: absolute; */
     top: 85vh;
     right: 5vw;
     margin-bottom: 5vh;
@@ -164,7 +159,6 @@ nav a {
     /* border: red 4px solid; */
     margin-top: 60%;
     margin-left: 50%;
-    /* margin-right: 50%; */
 }
 
 .projectsHeading {
@@ -189,13 +183,10 @@ nav a {
         border-radius: 10px;
         font-size: 25px;
         margin-top: 5vh;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 6px;
-        padding-right: 6px;
+        padding: 6px;
         font-family: 'Trebuchet MS';
         font-weight: bold;
-        position: absolute;
+        /* position: absolute; */
         top: 197vh;
         left: 5vw;
         right: 5vw;
@@ -208,13 +199,10 @@ nav a {
     border-radius: 10px;
     font-size: 25px;
     margin-top: 5vh;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 212vh;
     left: 5vw;
     right: 5vw;
@@ -227,13 +215,10 @@ nav a {
     border-radius: 10px;
     font-size: 25px;
     margin-top: 50px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 227vh;
     left: 5vw;
     right: 5vw;
@@ -262,13 +247,10 @@ nav a {
     background-color: transparent;
     font-size: 25px;
     margin-top: 0vh;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 275vh;
     left: 5vw;
     right: 5vw;
@@ -300,7 +282,7 @@ nav a {
     padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 330vh;
     left: 5vw;
     right: 50vw;
@@ -309,7 +291,7 @@ nav a {
 .volleyballImage {
     width: 40vw;
     margin-top: 0vh;
-    position: absolute;
+    /* position: absolute; */
     top: 335vh;
     left: 50vw;
     right: 5vw;
@@ -322,7 +304,7 @@ nav a {
     padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 360vh;
     left: 50vw;
     right: 5vw;
@@ -331,7 +313,7 @@ nav a {
 .guitarImage {
     width: 35vw;
     margin-top: 25vh;
-    position: absolute;
+    /* position: absolute; */
     top: 355vh;
     left: 5vw;
     right: 87550vw;
@@ -344,7 +326,7 @@ nav a {
     padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 395vh;
     left: 5vw;
     right: 50vw;
@@ -353,7 +335,7 @@ nav a {
 .gamesImage {
     width: 40vw;
     margin-top: 40vh;
-    position: absolute;
+    /* position: absolute; */
     top: 390vh;
     left: 50vw;
     right: 5vw;
@@ -366,7 +348,7 @@ nav a {
     padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 425vh;
     left: 50vw;
     right: 5vw;
@@ -375,7 +357,7 @@ nav a {
 .animeImage {
     width: 40vw;
     margin-top: 65vh;
-    position: absolute;
+    /* position: absolute; */
     top: 420vh;
     left: 5vw;
     right: 50vw;
@@ -408,7 +390,7 @@ nav a {
     padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 525vh;
     left: 5vw;
     right: 5vw;
