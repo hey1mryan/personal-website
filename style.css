@@ -35,6 +35,7 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .name {
@@ -187,13 +188,13 @@ nav a {
         font-family: 'Trebuchet MS';
         font-weight: bold;
         position: absolute;
-        top: 197vh;
+        top: 195vh;
         left: 5vw;
         right: 5vw;
 }
 
 .projectsDescription2 {
-    background-color: darkgray;
+    background-color:darkgray;
     color:#171717;
     border-color: #171717;
     border-radius: 10px;
@@ -203,23 +204,23 @@ nav a {
     font-family: 'Trebuchet MS';
     font-weight: bold;
     position: absolute;
-    top: 212vh;
+    top: 210vh;
     left: 5vw;
     right: 5vw;
 }
 
 .projectsDescription3 {
-    background-color: darkgray;
+    background-color:darkgray;
     color:#171717;
     border-color: #171717;
     border-radius: 10px;
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 5vh;
     padding: 6px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     position: absolute;
-    top: 227vh;
+    top: 225vh;
     left: 5vw;
     right: 5vw;
 }
@@ -380,7 +381,7 @@ nav a {
     padding-right: 100%;
     transform: translateX(-50%);
     width: 100vw;
-    margin-top: 15vh
+    margin-top: 20vh
 }
 
 .contactDescription {
